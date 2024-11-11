@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./typography.css";
 import { Header } from "@/components/global/header/header";
 import { first_type } from "@/functions/fonts";
 
@@ -18,7 +19,7 @@ export default function RootLayout({
       <body className={first_type.variable}>
         <div className={"App"}>
           <Header />
-          <main className={"AppBody "}>{children}</main>
+          <main>{children}</main>
         </div>
       </body>
     </html>

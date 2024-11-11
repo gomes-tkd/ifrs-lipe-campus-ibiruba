@@ -40,14 +40,7 @@ export function Header() {
     <header className={`${styles.header}`}>
       <nav className={`container ${styles.nav}`}>
         <Link href={"/"} className={styles.logo}>
-          <Image
-            // src={`/assets/images/lipe.png`}
-            src={LIpE}
-            width={60}
-            height={60}
-            alt={"LIpE"}
-            priority
-          />
+          <Image src={LIpE} width={60} height={60} alt={"LIpE"} priority />
         </Link>
         {mobile && (
           <button
@@ -66,7 +59,7 @@ export function Header() {
         >
           <Link
             href="/equipes"
-            className={pathname === "/equipe" ? "active" : ""}
+            className={pathname === "/equipes" ? "active" : ""}
           >
             Equipes
           </Link>

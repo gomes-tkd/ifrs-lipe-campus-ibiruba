@@ -1,0 +1,30 @@
+.introducaoBg {
+  background: linear-gradient(135deg, #0a1a2e, #1b2a3e, #243a4e);
+  box-shadow: inset 0 -120px #fff;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 4rem;
+}
+
+.introducaoConteudo {
+  align-self: center;
+  padding-bottom: 200px;
+}
+
+.introducao h1,
+.introducao p {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  color: #b2b2b2;
+}
+
+.introducao img {
+  place-self: center;
+  background: linear-gradient(135deg, #0a1a2e, #1b2a3e, #243a4e);
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.5);
+}

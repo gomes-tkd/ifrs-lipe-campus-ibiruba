@@ -1,12 +1,17 @@
 .button {
-  font-size: 1rem;
-  cursor: pointer;
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font: 600 1.125rem / 1.35 "Poppins", sans-serif;
+  max-width: max-content;
   border: none;
-  border-radius: 0.4rem;
-  background: #fb1;
-  color: #764701;
-  min-width: 8rem;
-  padding: 0.8rem 1.2rem;
-  box-sizing: border-box;
-  transition: 0.1s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }

@@ -14,6 +14,15 @@
   height: 4rem;
 }
 
+.nav :global(a.active) {
+  box-shadow: 0 0 0 3px #fea;
+  border-color: #fb1;
+  border-radius: 5px;
+  padding: 0.125rem 0.5rem;
+  background: #243a4e;
+  color: #fff;
+}
+
 .logo {
   padding: 0.5rem 0;
 }
@@ -95,6 +104,8 @@
   opacity: 1;
   pointer-events: initial;
   z-index: 100;
+  min-height: 8.6rem;
+  color: #fff;
 }
 
 .navMobile a,
